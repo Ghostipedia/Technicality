@@ -1,0 +1,73 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "minecraft:cube_bottom_top"
+  },
+  "variants": {
+    "variant": {
+      "cupronickel": {
+        "textures": {
+          "side": "gregtech:blocks/casings/coils/machine_coil_cupronickel",
+		  "top": "gregtech:blocks/casings/coils/machine_coil_cupronickel",
+		  "bottom": "gregtech:blocks/casings/coils/machine_coil_cupronickel"
+        }
+      },
+      "kanthal": {
+        "textures": {
+          "side": "gregtech:blocks/casings/coils/machine_coil_kanthal",
+		  "top": "gregtech:blocks/casings/coils/machine_coil_kanthal",
+		  "bottom": "gregtech:blocks/casings/coils/machine_coil_kanthal"
+        }
+      },
+      "nichrome": {
+        "textures": {
+          "side": "gregtech:blocks/casings/coils/machine_coil_nichrome",
+		  "top": "gregtech:blocks/casings/coils/machine_coil_nichrome",
+		  "bottom": "gregtech:blocks/casings/coils/machine_coil_nichrome"
+        }
+      },
+      "tungstensteel": {
+        "textures": {
+          "side": "gregtech:blocks/casings/coils/machine_coil_tungstensteel",
+		  "top": "gregtech:blocks/casings/coils/machine_coil_tungstensteel",
+		  "bottom": "gregtech:blocks/casings/coils/machine_coil_tungstensteel"
+        }
+      },
+      "hss_g": {
+        "textures": {
+          "side": "gregtech:blocks/casings/coils/machine_coil_hssg",
+		  "top": "gregtech:blocks/casings/coils/machine_coil_hssg",
+		  "bottom": "gregtech:blocks/casings/coils/machine_coil_hssg"
+        }
+      },
+      "naquadah": {
+        "textures": {
+          "side": "gregtech:blocks/casings/coils/machine_coil_naquadah",
+		  "top": "gregtech:blocks/casings/coils/machine_coil_naquadah",
+		  "bottom": "gregtech:blocks/casings/coils/machine_coil_naquadah"
+        }
+      },
+      "naquadah_alloy": {
+        "textures": {
+          "side": "gregtech:blocks/casings/coils/machine_coil_naquadahalloy",
+		  "top": "gregtech:blocks/casings/coils/machine_coil_naquadahalloy",
+		  "bottom": "gregtech:blocks/casings/coils/machine_coil_naquadahalloy"
+        }
+      },
+      "superconductor": {
+        "textures": {
+          "side": "gregtech:blocks/casings/coils/machine_coil_superconductor",
+		  "top": "gregtech:blocks/casings/coils/machine_coil_superconductor",
+		  "bottom": "gregtech:blocks/casings/coils/machine_coil_superconductor"
+        }
+      },
+      "fusion_coil": {
+        "textures": {
+          "side": "gregtech:blocks/casings/fusion/machine_casing_fusion_coil",
+		  "top": "gregtech:blocks/casings/fusion/machine_casing_fusion_coil",
+		  "bottom": "gregtech:blocks/casings/fusion/machine_casing_fusion_coil"
+        }
+      }
+    }
+  }
+}

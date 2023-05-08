@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gregtech:items/metaitems/smd.base",
+	"layer1": "gregtech:items/metaitems/smd.resistor",
+	"layer2": "gregtech:items/metaitems/smd.refined"
+  }
+}
