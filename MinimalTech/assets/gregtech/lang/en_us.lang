@@ -58,13 +58,13 @@ gregtech.top.working_disabled=§fWorking Disabled
 gregtech.top.energy_consumption=§fUsing
 gregtech.top.energy_production=§fProducing
 
-gregtech.top.transform_up=§cStep Up§r
-gregtech.top.transform_down=§aStep Down§r
-gregtech.top.transform_input=§6Input:§r
-gregtech.top.transform_output=§9Output:§r
+gregtech.top.transform_up=§cStep Up§f
+gregtech.top.transform_down=§aStep Down§f
+gregtech.top.transform_input=§6Input:§f
+gregtech.top.transform_output=§9Output:§f
 
-gregtech.top.convert_eu=§fConverting §eEU§r -> §cFE§r
-gregtech.top.convert_fe=§fConverting §cFE§r -> §eEU§r
+gregtech.top.convert_eu=§fConverting §eEU§f -> §cFE§f
+gregtech.top.convert_fe=§fConverting §cFE§f -> §eEU§f
 
 gregtech.top.fuel_min_consume=§fNeeds
 gregtech.top.fuel_none=§fNo fuel
@@ -1126,7 +1126,7 @@ cover.filter.blacklist.disabled=§fWhitelist
 cover.filter.blacklist.enabled=§fBlacklist
 
 cover.ore_dictionary_filter.title=§fOre Dictionary Filter
-cover.ore_dictionary_filter.info=§bAccepts complex expressions/n§6a & b§r =§f AND/n§6a | b§r =§f OR/n§6a ^ b§r =§f XOR/n§6! abc§r =§f NOT/n§6( abc )§r for grouping/n§6*§r for wildcard (i.e. 0 or more characters)/n§6?§r for any 1 character/n§6()§r for matching empty entry (including items with no ore dictionary)/n§6$c§r at the start of expression for case-sensitive match/n§bExample:/n§6dust*Gold | (plate* & !*Double*)/nWill match all gold dusts of all sizes or all plates, but not double plates
+cover.ore_dictionary_filter.info=§bAccepts complex expressions/n§6a & b§f =§f AND/n§6a | b§f =§f OR/n§6a ^ b§f =§f XOR/n§6! abc§f =§f NOT/n§6( abc )§f for grouping/n§6*§f for wildcard (i.e. 0 or more characters)/n§6?§f for any 1 character/n§6()§f for matching empty entry (including items with no ore dictionary)/n§6$c§f at the start of expression for case-sensitive match/n§bExample:/n§6dust*Gold | (plate* & !*Double*)/nWill match all gold dusts of all sizes or all plates, but not double plates
 cover.ore_dictionary_filter.test_slot.info=§fInsert a item to test if it matches the filter expression
 cover.ore_dictionary_filter.test_slot.matches=§a* %s
 cover.ore_dictionary_filter.test_slot.matches_not=§c* %s
@@ -1139,7 +1139,7 @@ cover.ore_dictionary_filter.status.no_issues=§aNo issues
 cover.ore_dictionary_filter.status.explain=§fOre filter explanation:
 
 cover.fluid_filter.title=§fFluid Filter
-cover.fluid_filter.config_amount=§fScroll wheel up increases amount, down decreases./nShift[§6x10§r],Ctrl[§ex100§r],Shift+Ctrl[§ax1000§r]/nRight click increases amount, left click decreases./nHold shift to double/halve./nMiddle click to clear
+cover.fluid_filter.config_amount=§fScroll wheel up increases amount, down decreases./nShift[§6x10§f],Ctrl[§ex100§f],Shift+Ctrl[§ax1000§f]/nRight click increases amount, left click decreases./nHold shift to double/halve./nMiddle click to clear
 cover.fluid_filter.mode.filter_fill=§fFilter Fill
 cover.fluid_filter.mode.filter_drain=§fFilter Drain
 cover.fluid_filter.mode.filter_both=§fFilter Fill & Drain
@@ -1155,7 +1155,7 @@ cover.item_filter.ignore_nbt.disabled=§fRespect NBT
 
 cover.voiding.voiding_mode.void_any=§fVoid Matching
 cover.voiding.voiding_mode.void_overflow=§fVoid Overflow
-cover.voiding.voiding_mode.description=§eVoid Matching§r will void anything matching the filter. /n§eVoid Overflow§r will void anything matching the filter, up to the specified amount.
+cover.voiding.voiding_mode.description=§eVoid Matching§f will void anything matching the filter. /n§eVoid Overflow§f will void anything matching the filter, up to the specified amount.
 cover.fluid.voiding.title=§fFluid Voiding Settings
 cover.fluid.voiding.advanced.title=§fAdvanced Fluid Voiding Settings
 cover.item.voiding.title=§fItem Voiding Settings
@@ -1176,15 +1176,15 @@ cover.conveyor.title=§fConveyor Cover Settings (%s)
 cover.conveyor.transfer_rate=§7items/sec
 cover.conveyor.mode.export=§fMode: Export
 cover.conveyor.mode.import=§fMode: Import
-cover.conveyor.distribution.round_robin_enhanced=§fDistribution Mode/n§bEnhanced Round Robin§r/n§7Splits items equally to all inventories
-cover.conveyor.distribution.round_robin=§fDistribution Mode/n§bRound Robin§r with Priority/n§7Tries to split items equally to inventories
-cover.conveyor.distribution.first_insert=§fDistribution Mode/n§bFirst Insert§r/n§7Will insert into the first inventory it finds
+cover.conveyor.distribution.round_robin_enhanced=§fDistribution Mode/n§bEnhanced Round Robin§f/n§7Splits items equally to all inventories
+cover.conveyor.distribution.round_robin=§fDistribution Mode/n§bRound Robin§f with Priority/n§7Tries to split items equally to inventories
+cover.conveyor.distribution.first_insert=§fDistribution Mode/n§bFirst Insert§f/n§7Will insert into the first inventory it finds
 cover.conveyor.blocks_input.enabled=§fIf enabled, items will not be inserted when cover is set to pull items from the inventory into pipe./n§aEnabled
 cover.conveyor.blocks_input.disabled=§fIf enabled, items will not be inserted when cover is set to pull items from the inventory into pipe./n§cDisabled
 cover.universal.manual_import_export.mode.disabled=§fManual I/O: Disabled
 cover.universal.manual_import_export.mode.filtered=§fManual I/O: Filtered
 cover.universal.manual_import_export.mode.unfiltered=§fManual I/O: Unfiltered
-cover.universal.manual_import_export.mode.description=§eDisabled§r - Items/fluids will only move as specified by the cover and its filter. /n§eAllow Filtered§r - Items/fluids can be extracted and inserted independently of the cover mode, as long as its filter matches (if any). /n§eAllow Unfiltered§r - Items/fluids can be moved independently of the cover mode. Filter applies to the items inserted or extracted by this cover
+cover.universal.manual_import_export.mode.description=§eDisabled§f - Items/fluids will only move as specified by the cover and its filter. /n§eAllow Filtered§f - Items/fluids can be extracted and inserted independently of the cover mode, as long as its filter matches (if any). /n§eAllow Unfiltered§f - Items/fluids can be moved independently of the cover mode. Filter applies to the items inserted or extracted by this cover
 cover.conveyor.item_filter.title=§fItem Filter
 cover.conveyor.ore_dictionary.title=§fOre Dictionary Name
 cover.conveyor.ore_dictionary.title2=§f(use * for wildcard)
@@ -1192,7 +1192,7 @@ cover.robotic_arm.title=§fRobotic Arm Settings (%s)
 cover.robotic_arm.transfer_mode.transfer_any=§fTransfer Any
 cover.robotic_arm.transfer_mode.transfer_exact=§fSupply Exact
 cover.robotic_arm.transfer_mode.keep_exact=§fKeep Exact
-cover.robotic_arm.transfer_mode.description=§eTransfer Any§r - in this mode, cover will transfer as many items matching its filter as possible./n§eSupply Exact§r - in this mode, cover will supply items in portions specified in item filter slots (or variable under this button for ore dictionary filter). If amount of items is less than portion size, items won't be moved./n§eKeep Exact§r - in this mode, cover will keep specified amount of items in the destination inventory, supplying additional amount of items if required./n§7Tip: left/right click on filter slots to change item amount,  use shift clicking to change amount faster.
+cover.robotic_arm.transfer_mode.description=§eTransfer Any§f - in this mode, cover will transfer as many items matching its filter as possible./n§eSupply Exact§f - in this mode, cover will supply items in portions specified in item filter slots (or variable under this button for ore dictionary filter). If amount of items is less than portion size, items won't be moved./n§eKeep Exact§f - in this mode, cover will keep specified amount of items in the destination inventory, supplying additional amount of items if required./n§7Tip: left/right click on filter slots to change item amount,  use shift clicking to change amount faster.
 
 cover.pump.title=§fPump Cover Settings (%s)
 cover.pump.transfer_rate=§f%s
@@ -1202,14 +1202,14 @@ cover.pump.fluid_filter.title=§fFluid Filter
 cover.bucket.mode.bucket=§fkL/s
 cover.bucket.mode.milli_bucket=§fL/s
 cover.fluid_regulator.title=§fFluid Regulator Settings (%s)
-cover.fluid_regulator.transfer_mode.description=§eTransfer Any§r - in this mode, cover will transfer as many fluids matching its filter as possible./n§eSupply Exact§r - in this mode, cover will supply fluids in portions specified in the window underneath this button. If amount of fluids is less than portion size, fluids won't be moved./n§eKeep Exact§r - in this mode, cover will keep specified amount of fluids in the destination inventory, supplying additional amount of fluids if required./n§7Tip: shift click will multiply increase/decrease amounts by 10 and ctrl click will multiply by 100.
+cover.fluid_regulator.transfer_mode.description=§eTransfer Any§f - in this mode, cover will transfer as many fluids matching its filter as possible./n§eSupply Exact§f - in this mode, cover will supply fluids in portions specified in the window underneath this button. If amount of fluids is less than portion size, fluids won't be moved./n§eKeep Exact§f - in this mode, cover will keep specified amount of fluids in the destination inventory, supplying additional amount of fluids if required./n§7Tip: shift click will multiply increase/decrease amounts by 10 and ctrl click will multiply by 100.
 cover.fluid_regulator.supply_exact=§fSupply Exact: %s
 cover.fluid_regulator.keep_exact=§fKeep Exact: %s
 
 cover.machine_controller.title=§fMachine Controller Settings
 cover.machine_controller.normal=§fNormal
 cover.machine_controller.inverted=§fInverted
-cover.machine_controller.inverted.description=§eNormal§r - in this mode, the cover will require a signal weaker than the set redstone level to run/n§eInverted§r - in this mode, the cover will require a signal stronger than the set redstone level to run
+cover.machine_controller.inverted.description=§eNormal§f - in this mode, the cover will require a signal weaker than the set redstone level to run/n§eInverted§f - in this mode, the cover will require a signal stronger than the set redstone level to run
 cover.machine_controller.redstone=§fMin Redstone Strength: %,d
 cover.machine_controller.mode.machine=§fControl Machine
 cover.machine_controller.mode.cover_up=§fControl Cover (Top)
@@ -2268,7 +2268,7 @@ behavior.tricorder.energy_container_out=§fMax OUT: %s (%s) EU at %s A
 behavior.tricorder.energy_container_storage=§fEnergy: %s EU / %s EU
 behavior.tricorder.bedrock_fluid.amount=§fFluid In Deposit: %s %s - %s%%
 behavior.tricorder.bedrock_fluid.amount_unknown=§fFluid In Deposit: %s%%
-behavior.tricorder.bedrock_fluid.nothing=§fFluid In Deposit: §6Nothing§r
+behavior.tricorder.bedrock_fluid.nothing=§fFluid In Deposit: §6Nothing§f
 behavior.tricorder.eut_per_sec=§fLast Second %s EU/t
 behavior.tricorder.amp_per_sec=§fLast Second %s A
 behavior.tricorder.workable_progress=§fProgress: %s s / %s s
@@ -4195,7 +4195,7 @@ gregtech.machine.basic.input_from_output_side.disallow=§fDisallow Input from Ou
 gregtech.machine.muffle.on=§fSound Muffling: Enabled
 gregtech.machine.muffle.off=§fSound Muffling: Disabled
 gregtech.machine.perfect_oc=§fDoes not lose energy efficiency when overclocked.
-gregtech.machine.parallel_limit=§fCan run up to §b%d§r§7 Recipes at once.
+gregtech.machine.parallel_limit=§fCan run up to §b%d§f§7 Recipes at once.
 
 # Advancements
 gregtech.advancement.root_steam.name=§fSteam Age
@@ -4798,7 +4798,7 @@ gregtech.universal.tooltip.amperage_out=§eAmperage OUT: §f%,dA
 gregtech.universal.tooltip.amperage_out_till=§eAmperage OUT up to: §f%,dA
 gregtech.universal.tooltip.amperage_in_out=§eAmperage IN/OUT: §f%,dA
 gregtech.universal.tooltip.amperage_in_out_till=§eAmperage IN/OUT up to: §f%,dA
-gregtech.universal.tooltip.energy_storage_capacity=§cEnergy Capacity: §r%,d EU
+gregtech.universal.tooltip.energy_storage_capacity=§cEnergy Capacity: §f%,d EU
 gregtech.universal.tooltip.energy_tier_range=§aAllowed Voltage Tiers: §f%s §f- %s
 gregtech.universal.tooltip.item_storage_capacity=§6Item Slots: §f%,d
 gregtech.universal.tooltip.item_storage_total=§6Item Capacity: §f%,d items
@@ -4825,7 +4825,7 @@ gregtech.universal.tooltip.terrain_resist=§fThis Machine will not explode when 
 gregtech.universal.tooltip.requires_redstone=§4Requires Redstone power
 
 gregtech.recipe.total=§fTotal: %,d EU
-gregtech.recipe.eu=§fUsage: %,d EU/t (%s§r)
+gregtech.recipe.eu=§fUsage: %,d EU/t (%s§f)
 gregtech.recipe.eu_inverted=§fGeneration: %,d EU/t
 gregtech.recipe.duration=§fDuration: %,.2f secs
 gregtech.recipe.amperage=§fAmperage: %,d
@@ -4883,8 +4883,8 @@ gregtech.gui.fluid_auto_output.tooltip.enabled=§fFluid Auto-Output Enabled
 gregtech.gui.fluid_auto_output.tooltip.disabled=§fFluid Auto-Output Disabled
 gregtech.gui.item_auto_output.tooltip.enabled=§fItem Auto-Output Enabled
 gregtech.gui.item_auto_output.tooltip.disabled=§fItem Auto-Output Disabled
-gregtech.gui.charger_slot.tooltip=§fCharger Slot§r/n§7Draws power from %s batteries§r/n§7Charges %s tools and batteries
-gregtech.gui.configurator_slot.tooltip=§fProgrammed Circuit Slot§r/n/n§7Left-Click to add ghost programmed circuit/n§7Right-Click to remove ghost programmed circuit/n/n§7Left-Click with a §6Programmed Circuit§7 in hand to/n§7set this slot's config to its value./n/n§7Hold Shift when clicking buttons to change by 5.§r
+gregtech.gui.charger_slot.tooltip=§fCharger Slot§f/n§7Draws power from %s batteries§f/n§7Charges %s tools and batteries
+gregtech.gui.configurator_slot.tooltip=§fProgrammed Circuit Slot§f/n/n§7Left-Click to add ghost programmed circuit/n§7Right-Click to remove ghost programmed circuit/n/n§7Left-Click with a §6Programmed Circuit§7 in hand to/n§7set this slot's config to its value./n/n§7Hold Shift when clicking buttons to change by 5.§f
 gregtech.gui.fluid_lock.tooltip.enabled=§fFluid Locking Enabled
 gregtech.gui.fluid_lock.tooltip.disabled=§fFluid Locking Disabled
 gregtech.gui.fluid_voiding.tooltip.enabled=§fExcess Fluid Voiding Enabled
@@ -4960,7 +4960,7 @@ gregtech.multiblock.progress=§fProgress: %s%%
 gregtech.multiblock.invalid_structure=§fInvalid structure.
 gregtech.multiblock.invalid_structure.tooltip=§fThis block is a controller of the multiblock structure. For building help, see structure template in JEI.
 gregtech.multiblock.validation_failed=§fInvalid amount of inputs/outputs.
-gregtech.multiblock.max_energy_per_tick=§fMax EU/t: §a%s (%s§r)
+gregtech.multiblock.max_energy_per_tick=§fMax EU/t: §a%s (%s§f)
 gregtech.multiblock.generation_eu=§fOutputting: §a%s EU/t
 gregtech.multiblock.universal.no_problems=§fNo Maintenance Problems!
 gregtech.multiblock.universal.has_problems=§fHas Maintenance Problems!
@@ -4980,7 +4980,7 @@ gregtech.multiblock.universal.distinct.info=§fIf enabled, each Item Input Bus w
 gregtech.multiblock.parallel=§fPerforming up to %d Recipes in Parallel
 gregtech.multiblock.multiple_recipemaps.header=§fMachine Mode:
 gregtech.multiblock.multiple_recipemaps.tooltip=§fScrewdriver the controller to change which machine mode to use.
-gregtech.multiblock.multiple_recipemaps_recipes.tooltip=§fMachine Modes: §e%s§r
+gregtech.multiblock.multiple_recipemaps_recipes.tooltip=§fMachine Modes: §e%s§f
 gregtech.multiblock.multiple_recipemaps.switch_message=§fThe machine must be off to switch modes!
 
 gregtech.multiblock.preview.zoom=§fUse mousewheel or right-click + drag to zoom
@@ -4988,18 +4988,18 @@ gregtech.multiblock.preview.rotate=§fClick and drag to rotate
 gregtech.multiblock.preview.select=§fRight-click to check candidates
 
 gregtech.multiblock.pattern.error=§fExpected components (%s) at (%s).
-gregtech.multiblock.pattern.error.limited_exact=§cExactly: %d§r
-gregtech.multiblock.pattern.error.limited_within=§cBetween %d and %d§r
-gregtech.multiblock.pattern.error.limited.0=§cMaximum: %d§r
-gregtech.multiblock.pattern.error.limited.1=§cMinimum: %d§r
-gregtech.multiblock.pattern.error.limited.2=§cMaximum: %d per layer§r
-gregtech.multiblock.pattern.error.limited.3=§cMinimum: %d per layer§r
-gregtech.multiblock.pattern.error.coils=§cAll heating coils must be the same§r
-gregtech.multiblock.pattern.error.filters=§cAll filters must be the same§r
-gregtech.multiblock.pattern.clear_amount_1=§6Must have a clear 1x1x1 space in front§r
-gregtech.multiblock.pattern.clear_amount_3=§6Must have a clear 3x3x1 space in front§r
-gregtech.multiblock.pattern.single=§6Only this block can be used§r
-gregtech.multiblock.pattern.location_end=§cVery End§r
+gregtech.multiblock.pattern.error.limited_exact=§cExactly: %d§f
+gregtech.multiblock.pattern.error.limited_within=§cBetween %d and %d§f
+gregtech.multiblock.pattern.error.limited.0=§cMaximum: %d§f
+gregtech.multiblock.pattern.error.limited.1=§cMinimum: %d§f
+gregtech.multiblock.pattern.error.limited.2=§cMaximum: %d per layer§f
+gregtech.multiblock.pattern.error.limited.3=§cMinimum: %d per layer§f
+gregtech.multiblock.pattern.error.coils=§cAll heating coils must be the same§f
+gregtech.multiblock.pattern.error.filters=§cAll filters must be the same§f
+gregtech.multiblock.pattern.clear_amount_1=§6Must have a clear 1x1x1 space in front§f
+gregtech.multiblock.pattern.clear_amount_3=§6Must have a clear 3x3x1 space in front§f
+gregtech.multiblock.pattern.single=§6Only this block can be used§f
+gregtech.multiblock.pattern.location_end=§cVery End§f
 gregtech.multiblock.pattern.replaceable_air=§fReplaceable by Air
 
 gregtech.multiblock.blast_furnace.max_temperature=§fHeat Capacity: %s
@@ -5074,7 +5074,7 @@ gregtech.command.copy.click_to_copy=§fClick to copy
 gregtech.command.copy.copied_start=§fCopied [
 gregtech.command.copy.copied_end=§f] to the clipboard
 
-gregtech.chat.cape=§5Congrats: you just unlocked a new cape! See the Cape Selector terminal app to use it.§r
+gregtech.chat.cape=§5Congrats: you just unlocked a new cape! See the Cape Selector terminal app to use it.§f
 
 gregtech.universal.clear_nbt_recipe.tooltip=§cThis will destroy all contents!
 
@@ -5275,7 +5275,7 @@ terminal.store.miss=§fRequires %s (%d).
 
 terminal.ar.open=§fOpen AR
 
-terminal.multiblock_ar.description=§fRemember the §cFreedom Wrench§r?  Unfortunately, it it's gone. It doesn't matter, we have a new technology now. This app can also help you build your multi-block machine.
+terminal.multiblock_ar.description=§fRemember the §cFreedom Wrench§f?  Unfortunately, it it's gone. It doesn't matter, we have a new technology now. This app can also help you build your multi-block machine.
 terminal.multiblock_ar.tier.0=§fAR Camera
 terminal.multiblock_ar.tier.1=§f3D Builder
 terminal.multiblock_ar.unlock=§fUnlock this mode after the upgrade
