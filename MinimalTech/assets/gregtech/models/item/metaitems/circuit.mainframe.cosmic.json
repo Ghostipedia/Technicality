@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-	"layer0": "gregtech:items/metaitems/circuit.cosmic.mainframe",
-	"layer1": "gregtech:items/metaitems/circuit.cosmic.mainframe_overlay"
-  }
-}

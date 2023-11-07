@@ -1,8 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "gregtech:items/metaitems/smd.base",
-	"layer1": "gregtech:items/metaitems/smd.transistor",
-	"layer2": "gregtech:items/metaitems/smd.quantum"
-  }
-}
