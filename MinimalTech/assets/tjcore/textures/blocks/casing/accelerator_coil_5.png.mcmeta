@@ -1,0 +1,13 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "CTM",
+        "layer": "SOLID",
+        "textures": [
+            "tjcore:blocks/casing/accelerator_coil_5_ctm"
+        ],
+        "extra": {
+            "connect_inside": true
+        }
+    }
+}
