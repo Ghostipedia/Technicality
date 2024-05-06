@@ -1,0 +1,8 @@
+{
+    "ldlib": {
+        "emissive": false
+    },
+    "shimmer": {
+        "bloom": false
+    }
+}
